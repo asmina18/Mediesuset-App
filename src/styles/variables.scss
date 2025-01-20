@@ -1,0 +1,56 @@
+@font-face {
+  font-family: 'Brush Script MT';
+  src: url('../fonts/BrushScriptMT.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Trebuchet MS';
+  src: url('../fonts/TrebuchetMS.ttf') format('truetype');
+}
+
+// Farver
+$primary-color: #007bff;
+$secondary-color: #6c757d;
+$success-color: #28a745;
+$danger-color: #dc3545;
+$warning-color: #ffc107;
+$info-color: #17a2b8;
+$light-color: #f8f9fa;
+$dark-color: #343a40;
+
+// Skrifttyper
+$primary-font: 'Trebuchet MS', sans-serif;
+$secondary-font: 'Brush Script MT', cursive;
+$base-font-size: 16px;
+
+// Spacing
+$spacing-sm: 8px;
+$spacing-md: 16px;
+$spacing-lg: 24px;
+
+// Breakpoints
+$breakpoint-xs: 0;
+$breakpoint-sm: 576px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 992px;
+$breakpoint-xl: 1200px;
+
+// Bootstrap-tilpasninger
+$body-bg: #ffffff;
+$body-color: #212529;
+$primary: $primary-color;
+$secondary: $secondary-color;
+$font-family-sans-serif: $primary-font;
+body {
+  font-family: $primary-font;
+  background-color: $body-bg;
+  color: $body-color;
+}
+h1,h2,h3,h4,p {
+  font-family: $primary-font;
+  color: $dark-color;
+}
+
+p {
+  margin-bottom: $spacing-lg;
+}

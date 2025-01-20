@@ -1,0 +1,17 @@
+.image-container {
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.image-full {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.content-text {
+  font-size: 1rem;
+  line-height: 1.8;
+}
